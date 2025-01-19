@@ -16,13 +16,13 @@ This project analyzes Twitter data to calculate sentiment scores for tweets and 
 ---
 
 ## **Dataset Structure**
-### `keywords.tsv`
+### `keywords.tsv/keys1.tsv/keys2.tsv`
 - A tab-separated file containing keywords and their sentiment scores.
 - Format: keyword<TAB>score
 - Example: happy 3 sad -2
 
 
-### `tweets.csv`
+### `tweet1.csv/tweet2.csv`
 - A CSV file containing tweets and metadata.
 - Columns:
 - `Created At`, `Tweet Text`, `Username`, `Retweet Count`, `Favorite Count`, `Language`, `Country`, `State/Province`, `City`, `Latitude`, `Longitude`
